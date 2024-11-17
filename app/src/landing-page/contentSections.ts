@@ -4,10 +4,12 @@ import avatarPlaceholder from '../client/static/avatar-placeholder.png';
 import { routes } from 'wasp/client/router';
 
 export const navigation = [
-  { name: 'Features', href: '#features' },
-  { name: 'Pricing', href: routes.PricingPageRoute.build() },
-  { name: 'Documentation', href: DocsUrl },
-  { name: 'Blog', href: BlogUrl },
+  { name: 'About Us', href: '#features' },
+  // { name: 'Pricing', href: routes.PricingPageRoute.build() },
+  // { name: 'Documentation', href: DocsUrl },
+  // { name: 'Blog', href: BlogUrl },
+  {name: 'Contact Us', href: '#features'},
+  {name: 'Search', href: '#features'}
 ];
 export const features = [
   {
