@@ -10,10 +10,13 @@ export default function Features({ features }: { features: Feature[] }) {
     <div id='features' className='mx-auto mt-48 max-w-7xl px-6 lg:px-8'>
       <div className='mx-auto max-w-2xl text-center'>
         <p className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl dark:text-white'>
-          The <span className='text-yellow-500'>Best</span> Features
+           <span className='text-yellow-500'>About Us</span>
         </p>
         <p className='mt-6 text-lg leading-8 text-gray-600 dark:text-white'>
-          Don't work harder.
+        RESOLVE is an easy-to-use software, which assists schools, students, parents, authors, real estate individuals, shops
+and more in creating a better and easy way to get the best education ever. It makes it a cinch to the educational
+system that work well, look great, and load quickly into HTML, CSS, and JavaScript. RESOLVE is the perfect software
+for making education easy
           <br /> Work smarter.
         </p>
       </div>
