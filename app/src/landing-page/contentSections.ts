@@ -9,7 +9,7 @@ export const navigation = [
   // { name: 'Documentation', href: DocsUrl },
   // { name: 'Blog', href: BlogUrl },
   {name: 'Contact Us', href: '#contact'},
-  {name: 'Search', href: '#'}
+  {name: 'FAQs', href: '#faqs'}
 ];
 export const features = [
   {
