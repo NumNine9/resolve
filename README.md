@@ -1,11 +1,14 @@
-# <YOUR_APP_NAME>
+# RESOLVE CODEBASE
 
-This project is based on [OpenSaas](https://opensaas.sh) template and consists of three main dirs:
-1. `app` - Your web app, built with [Wasp](https://wasp-lang.dev).
-2. `e2e-tests` - [Playwright](https://playwright.dev/) tests for your Wasp web app.
-3. `blog` - Your blog / docs, built with [Astro](https://docs.astro.build) based on [Starlight](https://starlight.astro.build/) template.
+This project is based on requirements requested by a client and consists of three main dirs:
+1. `app` - Your web app, built with [React](https://react.dev/reference/react) and [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html).
+2. `e2e-tests` - [Playwright](https://playwright.dev/) tests for the React web app.
+3. `blog` - Your blog / docs, built with [Astro](https://docs.astro.build) based on [Starlight](https://starlight.astro.build/).
 
 For more details, check READMEs of each respective directory!
+
+## Setup Instructions
+
 To run your new app, follow the instructions below:
 
   1. Position into app's root directory:
@@ -25,4 +28,4 @@ To run your new app, follow the instructions below:
   6. Last step: run the app!
     wasp start
 
-Check the README for additional guidance and the link to docs!
+Check the links for additional guidance and the link to documentation!
