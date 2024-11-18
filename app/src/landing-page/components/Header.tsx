@@ -6,6 +6,7 @@ import { Dialog } from '@headlessui/react';
 import { Link } from 'wasp/client/router';
 import { useAuth } from 'wasp/client/auth';
 import logo from '../../client/static/logo.png';
+import r_logo from './r-logo.png';
 import DarkModeSwitcher from '../../client/components/DarkModeSwitcher';
 import DropdownUser from '../../user/DropdownUser';
 import { UserMenuItems } from '../../user/UserMenuItems';
@@ -20,7 +21,7 @@ export default function Header({ navigation }: { navigation: NavigationItem[] })
 
   const { data: user, isLoading: isUserLoading } = useAuth();
 
-  const NavLogo = () => <img className='h-8 w-8' src={logo} alt='Your SaaS App' />;
+  const NavLogo = () => <img className='h-8 w-8' src={r_logo} alt='Your SaaS App' />;
 
   return (
     <header className='absolute inset-x-0 top-0 z-50 dark:bg-boxdark-2'>

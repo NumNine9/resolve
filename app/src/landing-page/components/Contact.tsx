@@ -4,7 +4,7 @@ const ContactUs: React.FC = () => {
   return (
     <section id='contact' className="dark:bg-boxdark-2 py-12 mx-auto mt-48">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
+        <h2 className="text-3xl text-yellow-500 font-bold text-center mb-8">Contact Us</h2>
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">

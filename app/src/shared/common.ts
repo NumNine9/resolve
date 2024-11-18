@@ -1,2 +1,2 @@
-export const DocsUrl = 'https://docs.opensaas.sh';
-export const BlogUrl = 'https://docs.opensaas.sh/blog';
+export const DocsUrl = 'https://react.dev/reference/react';
+export const BlogUrl = 'https://dev.to/t/react';

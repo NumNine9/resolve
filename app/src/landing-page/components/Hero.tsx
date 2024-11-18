@@ -31,7 +31,7 @@ export default function Hero() {
       <div className='py-24 sm:py-32'>
         <div className='mx-auto max-w-8xl px-6 lg:px-8'>
           <div className='lg:mb-18 mx-auto max-w-3xl text-center'>
-            <h1 className='text-4xl font-bold text-gray-900 sm:text-6xl dark:text-white'>
+            <h1 className='text-4xl font-bold text-yellow-500 sm:text-6xl'>
               {/* Some <span className='italic'>cool</span> words about your product */}
               Making education easy
             </h1>

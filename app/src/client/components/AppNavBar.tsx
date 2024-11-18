@@ -6,6 +6,7 @@ import { BiLogIn } from 'react-icons/bi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { HiBars3 } from 'react-icons/hi2';
 import logo from '../static/logo.png';
+import r_logo from './r-logo.png';
 import DropdownUser from '../../user/DropdownUser';
 import { UserMenuItems } from '../../user/UserMenuItems';
 import { DocsUrl, BlogUrl } from '../../shared/common';
@@ -19,7 +20,7 @@ const navigation = [
   { name: 'Blog', href: BlogUrl },
 ];
 
-const NavLogo = () => <img className='h-8 w-8' src={logo} alt='Your SaaS App' />;
+const NavLogo = () => <img className='h-8 w-8' src={r_logo} alt='Your SaaS App' />;
 
 export default function AppNavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ export default function AppNavBar() {
       <nav className='flex items-center justify-between p-6 lg:px-8' aria-label='Global'>
         <div className='flex lg:flex-1'>
           <a href='/' className='-m-1.5 p-1.5'>
-            <img className='h-8 w-8' src={logo} alt='My SaaS App' />
+            <img className='h-8 w-8' src={r_logo} alt='My SaaS App' />
           </a>
         </div>
         <div className='flex lg:hidden'>
