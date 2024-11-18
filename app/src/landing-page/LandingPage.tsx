@@ -12,7 +12,7 @@ import Features from './components/Features';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
-
+import Contact from './components/Contact'
 export default function LandingPage() {
   return (
     <div className='bg-white dark:text-white dark:bg-boxdark-2'>
@@ -22,6 +22,7 @@ export default function LandingPage() {
         <Hero />
         <Clients />
         <Features features={features} />
+        <Contact />
         <Testimonials testimonials={testimonials} />
         <FAQ faqs={faqs} />
       </main>
