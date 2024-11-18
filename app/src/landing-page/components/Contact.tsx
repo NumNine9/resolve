@@ -9,8 +9,8 @@ const ContactUs: React.FC = () => {
     height: '35vh',
   };
   const center = {
-    lat: 7.3697, // default latitude
-    lng: 12.3547, // default longitude
+    lat: 4.0440, // default latitude
+    lng: 9.6973, // default longitude
   };
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: 'AIzaSyA2aMLuvQyCRzvxrjHv3leaU4oh41xT78c',
