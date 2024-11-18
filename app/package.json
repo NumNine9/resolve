@@ -8,6 +8,7 @@
     "@google-analytics/data": "4.1.0",
     "@headlessui/react": "1.7.13",
     "@lemonsqueezy/lemonsqueezy.js": "^3.2.0",
+    "@react-google-maps/api": "^2.20.3",
     "apexcharts": "^3.41.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -26,6 +27,7 @@
     "stripe": "11.15.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
+    "use-places-autocomplete": "^4.0.1",
     "vanilla-cookieconsent": "^3.0.1",
     "wasp": "file:.wasp/out/sdk/wasp",
     "zod": "^3.23.8"

@@ -1,6 +1,30 @@
 import React from 'react';
+import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+
 
 const ContactUs: React.FC = () => {
+  const libraries = ['places'];
+  const mapContainerStyle = {
+    width: '30vw',
+    height: '35vh',
+  };
+  const center = {
+    lat: 7.3697, // default latitude
+    lng: 12.3547, // default longitude
+  };
+  const { isLoaded, loadError } = useLoadScript({
+    googleMapsApiKey: 'AIzaSyA2aMLuvQyCRzvxrjHv3leaU4oh41xT78c',
+   libraries:  ['places'],
+  });
+
+  if (loadError) {
+    return <div>Error loading maps</div>;
+  }
+
+  if (!isLoaded) {
+    return <div>Loading maps</div>;
+  }
+
   return (
     <section id='contact' className="dark:bg-boxdark-2 py-12 mx-auto mt-48">
       <div className="container mx-auto px-4">
@@ -66,6 +90,15 @@ const ContactUs: React.FC = () => {
                   <strong>Phone:</strong> <a href="tel:+1234567890" className="text-blue-500 hover:underline">+1 (234) 567-890</a>
                 </p>
               </div>
+              <div>
+      <GoogleMap
+        mapContainerStyle={mapContainerStyle}
+        zoom={10}
+        center={center}
+      >
+        <Marker position={center} />
+      </GoogleMap>
+    </div>
             </div>
           </div>
         </div>
