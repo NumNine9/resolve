@@ -25,14 +25,15 @@ app OpenSaaS {
 
   // 🔐 Auth out of the box! https://wasp-lang.dev/docs/auth/overview
   auth: {
+    // 1. Specify the User entity (we'll define it next)
     userEntity: User,
     methods: {
       // NOTE: If you decide to not use email auth, make sure to also delete the related routes and pages below.
       //   (RequestPasswordReset(Route|Page), PasswordReset(Route|Page), EmailVerification(Route|Page))
       email: {
         fromField: {
-          name: "Open SaaS App",
-          email: "me@example.com"
+          name: "Reslove App",
+          email: "resolve@example.com"
         },
         emailVerification: {
           clientRoute: EmailVerificationRoute,
@@ -45,10 +46,10 @@ app OpenSaaS {
         userSignupFields: import { getEmailUserFields } from "@src/auth/userSignupFields",
       },
       // Uncomment to enable Google Auth (check https://wasp-lang.dev/docs/auth/social-auth/google for setup instructions):
-      // google: { // Guide for setting up Auth via Google
-      //   userSignupFields: import { getGoogleUserFields } from "@src/auth/userSignupFields",
-      //   configFn: import { getGoogleAuthConfig } from "@src/auth/userSignupFields",
-      // },
+      google: { // Guide for setting up Auth via Google
+        userSignupFields: import { getGoogleUserFields } from "@src/auth/userSignupFields",
+        configFn: import { getGoogleAuthConfig } from "@src/auth/userSignupFields",
+      },
       // Uncomment to enable GitHub Auth (check https://wasp-lang.dev/docs/auth/social-auth/github for setup instructions):
       // gitHub: {
       //   userSignupFields: import { getGitHubUserFields } from "@src/auth/userSignupFields",

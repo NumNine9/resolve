@@ -1,6 +1,7 @@
 import openSaasBanner from '../../client/static/open-saas-banner.png';
 import { DocsUrl } from '../../shared/common';
 import pic from './child-thinking.jpg'
+import { Link } from 'wasp/client/router';
 
 export default function Hero() {
   return (
@@ -37,15 +38,18 @@ export default function Hero() {
             <p className='mt-6 mx-auto max-w-2xl text-lg leading-8 text-gray-600 dark:text-white'>
               Get started with us
             </p>
-            <div className='mt-10 flex items-center justify-center gap-x-6'>
-              <a
-                href={DocsUrl}
-                // href='https://www.istockphoto.com/photo/portrait-of-an-asian-child-girl-student-thinking-and-solving-the-subject-matter-gm1320972143-407345038?searchscope=image%2Cfilm'
-                className='rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-200 hover:ring-2 hover:ring-yellow-300 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:text-white'
-              >
-                Get Started <span aria-hidden='true'>→</span>
-              </a>
-            </div>
+            <Link to='/signup'>
+              <div className='mt-10 flex items-center justify-center gap-x-6'>
+                <div
+                  // href={DocsUrl}
+                  // href='https://www.istockphoto.com/photo/portrait-of-an-asian-child-girl-student-thinking-and-solving-the-subject-matter-gm1320972143-407345038?searchscope=image%2Cfilm'
+                  className='rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-200 hover:ring-2 hover:ring-yellow-300 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:text-white'
+                >
+                  Get Started <span aria-hidden='true'>→</span>
+                </div>
+              </div>
+            </Link>
+            
           </div>
           <div className='mt-14 flow-root sm:mt-14 '>
             <div className='-m-2 rounded-xl  lg:-m-4 lg:rounded-2xl lg:p-4'>
