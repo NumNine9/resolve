@@ -192,7 +192,7 @@ function NewTaskForm({ handleCreateTask }: { handleCreateTask: typeof createTask
         )}
       </div>
 
-      <button
+      {/* <button
         type='button'
         disabled={isPlanGenerating || tasks?.length === 0}
         onClick={() => handleGeneratePlan()}
@@ -206,15 +206,15 @@ function NewTaskForm({ handleCreateTask }: { handleCreateTask: typeof createTask
         ) : (
           'Generate Schedule'
         )}
-      </button>
+      </button> */}
 
-      {!!response && (
+      {/* {!!response && (
         <div className='flex flex-col'>
           <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>Today's Schedule</h3>
 
           <TaskTable schedule={response} />
         </div>
-      )}
+      )} */}
     </div>
   );
 }
