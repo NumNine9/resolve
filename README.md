@@ -257,21 +257,9 @@ In conclusion, system architecture is a critical aspect of software development,
 
 ---
 
-#### **7. Budget Estimation**
+#### **Conclusion**
 
-| **Category**            | **Estimated Cost** |
-|--------------------------|--------------------|
-| Development Costs        | $50,000            |
-| Tools and Licenses       | $5,000             |
-| Cloud Hosting            | $10,000            |
-| Maintenance (1st year)   | $15,000            |
-| **Total**                | **$80,000**        |
-
----
-
-### **Conclusion**
-
-This Software Development Plan outlines the roadmap for building a robust and scalable educational platform tailored to students' needs. By adhering to the outlined timeline, architecture, and budget, we aim to deliver a high-quality product that meets the client's expectations and enhances the educational experience for students.
+This Software Development Plan outlines the roadmap for building a robust and scalable educational platform tailored to students' needs. By adhering to the outlined timeline, and architecture, I aim to deliver a high-quality product that meets the client's expectations and enhances the educational experience for students.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
